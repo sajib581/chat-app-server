@@ -25,7 +25,7 @@ io.on('connection', (socket) => {
 
     socket.join(room) ;
 
-    socket.emit('message',{// sending 
+    socket.emit('message',{// sending cd 
       user:'system', 
       text:`welcome ${name} to ${room}.`
     })
